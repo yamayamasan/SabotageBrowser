@@ -1,0 +1,24 @@
+{
+  "name": "SabotageBrowser",
+  "version": "0.0.1",
+  "description": "For example, I secretly watch Youtube while at work",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "url": "https://github.com/yamayamasan/SabotageBrowser.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "materialize-css": "^0.97.7",
+    "riot": "^2.6.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.2.0",
+    "gulp": "^3.9.1"
+  },
+  "author": "ya.ma.ands@gmail.com",
+  "license": "MIT"
+}

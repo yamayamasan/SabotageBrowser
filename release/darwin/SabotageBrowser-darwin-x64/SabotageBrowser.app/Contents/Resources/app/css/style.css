@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#main,#sub {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+webview {
+  height: 100%;
+  width: 100%;
+}
+
+
+#open {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+}
+
+.hide_form {
+  display: none;
+}
+
+.hide_block {
+  display: none;
+}
+
+.side-collection-a {
+  display: inline-block !important;
+  text-overflow: ellipsis;
+}
